@@ -4,16 +4,22 @@ interface Props {
     weather:Weather;
 }
 
-export function WeatherInfo({weather}:Props) {
+export function WeatherInfo({ weather }: Props) {
     return (
-        <div className={'grid grid-cols-2 mb-12'}>
+        <div className="grid grid-cols-2 gap-4 mb-12 items-center">
+
             <div>
-                <h1 className={'text-2xl'}>{weather.city}</h1>
-                <div>{weather.description}</div>
-                <div>Humidity: <span className={'text-primary'}>{weather.humidity}</span>, Wind: <span className={'text-primary'}> {weather.wind} km/h</span></div>
+                <h1 className="text-xl sm:text-2xl font-semibold">{weather.city}</h1>
+                <div className="text-sm sm:text-base">{weather.description}</div>
+                <div className="text-sm sm:text-base mt-1">
+                    Humidity: <span className="text-primary">{weather.humidity}</span>, Wind:{" "}
+                    <span className="text-primary">{weather.wind} km/h</span>
+                </div>
             </div>
-            <div className={'flex justify-end '}>
-                <WeatherIcon size={56} icon={weather.icon}/>
+
+
+            <div className="flex justify-center md:justify-end mt-4 md:mt-0">
+                <WeatherIcon size={46}  icon={weather.icon} />
             </div>
         </div>
     );

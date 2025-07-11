@@ -51,7 +51,7 @@ export function Weather({city}: Props) {
 
 
         return (
-            <div className={'bg-white dark:bg-black shadow-md rounded-lg px-8 py-16 w-2/3 h-[600px]'}>
+            <div className={'bg-white dark:bg-black shadow-md rounded-lg px-8 py-16 w-2/3 min-h-[600px]'}>
                 <div className={'flex flex-col items-center mb-8'}>
                     <Image src={'LogoNavax.svg'} alt={'Navax collage'} width={86} height={44}/>
                 </div>
