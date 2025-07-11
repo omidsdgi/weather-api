@@ -1,5 +1,5 @@
 import {WeatherResponse} from "@/types/api/WeatherResponse";
-import {callWeatherApi} from "@/api/api";
+import {callWeatherApi} from "@/api/apiCall";
 import {useEffect, useState} from "react";
 import ApiStatus from "@/types/api/ApiStatus";
 

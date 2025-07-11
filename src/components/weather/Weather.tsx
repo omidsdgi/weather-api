@@ -5,7 +5,7 @@ import {useEffect, useState} from "react";
 import Image from "next/image";
 import ApiLoader from "@/components/share/ApiLoader/ApiLoader";
 import useApiCall from "@/hook/useApiCall";
-import {callForecastApi, callWeatherApi} from "@/api/api";
+import {callForecastApi, callWeatherApi} from "@/api/apiCall";
 import {WeatherResponse} from "@/types/api/WeatherResponse";
 import {ForecastProps, WeatherProps} from "@/types/api/FetcherProps";
 import {ForecastResponse} from "@/types/api/ForecastResponse";

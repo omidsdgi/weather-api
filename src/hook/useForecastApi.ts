@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import {callForecastApi, callWeatherApi} from "@/api/api";
+import {callForecastApi, callWeatherApi} from "@/api/apiCall";
 import {ForecastResponse} from "@/types/api/ForecastResponse";
 import ApiStatus from "@/types/api/ApiStatus";
 
