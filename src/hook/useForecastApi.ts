@@ -10,7 +10,7 @@ interface ForecastProps{
 
 
 
-export default function useForecastApi  ({lat,lon})  {
+export default function useForecastApi  ({lat,lon}:ForecastProps)  {
     const [response, setResponse] = useState<ForecastResponse|false>(false)
 
     const [status, setStatus] = useState<ApiStatus>("pending")
