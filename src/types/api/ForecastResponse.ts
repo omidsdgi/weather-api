@@ -19,7 +19,7 @@ export interface List {
     rain?: Rain
 }
 
-interface Main {
+export interface Main {
     temp: number
     feels_like: number
     temp_min: number
@@ -31,32 +31,32 @@ interface Main {
     temp_kf: number
 }
 
-interface Weather {
+export interface Weather {
     id: number
     main: string
     description: string
     icon: string
 }
 
-interface Clouds {
+export interface Clouds {
     all: number
 }
 
-interface Wind {
+export interface Wind {
     speed: number
     deg: number
     gust: number
 }
 
-interface Sys {
+export interface Sys {
     pod: string
 }
 
-interface Rain {
+export interface Rain {
     "3h": number
 }
 
-interface City {
+export interface City {
     id: number
     name: string
     coord: Coord
@@ -67,7 +67,7 @@ interface City {
     sunset: number
 }
 
-interface Coord {
+export interface Coord {
     lat: number
     lon: number
 }

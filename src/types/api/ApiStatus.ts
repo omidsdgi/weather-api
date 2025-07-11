@@ -1,4 +1,6 @@
-    type  ApiStatus="pending"| "isLoading"|"hasError"|"isSuccesses"
+type ApiStatus= 'pending'|'isLoading'|'hasError'|'isSuccess'
+export default ApiStatus
 
-
-export default ApiStatus;
+interface Props {
+    status: 'pending' | 'isLoading' | 'hasError' | 'isSuccess'
+}

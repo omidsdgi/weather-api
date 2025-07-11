@@ -1,8 +1,8 @@
-interface Weather {
+ interface Weather {
     city:string,
-    wind:number,
-    humidity:number,
     description:string,
+    humidity:number,
+    wind:number,
     icon:string,
     daily:Array<any>
 }

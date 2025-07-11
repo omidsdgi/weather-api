@@ -1,4 +1,3 @@
-
 export interface WeatherResponse {
     coord: Coord
     weather: Weather[]
@@ -27,7 +26,7 @@ interface Weather {
     icon: string
 }
 
-interface Main {
+ interface Main {
     temp: number
     feels_like: number
     temp_min: number

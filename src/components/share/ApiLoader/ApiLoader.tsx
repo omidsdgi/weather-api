@@ -1,17 +1,20 @@
 import ApiStatus from "@/types/api/ApiStatus";
-import {ReactNode} from "react";
+import React from "react";
 
 interface Props {
-    status:ApiStatus
-    children:ReactNode;
+    status: ApiStatus;
+    children: React.ReactNode;
 }
+
 function ApiLoader({status,children}:Props) {
+    console.log("🔥 ApiLoader status:", status);
     return (
-        <>{
-            status === "isLoading" ? <p>is loading please wait</p> :
-            status ===    "hasError"? <p>there is an error with api</p>:
-            children
-        }
+        <>
+            {
+                status === "isLoading" ?<p>is loading, Please wait</p> :
+                    status ==='hasError' ?<p>there is an error with api</p>:
+                        children
+            }
         </>
     );
 }
