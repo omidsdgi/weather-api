@@ -27,8 +27,8 @@ This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-appl
 ## 📸 Screenshots
 
 ### Start Screen
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/928f46cb-ac8b-488c-928f-0a4c2ea5c480" />
-<img width=\"1600\" height=\"900\" alt=\"image\" src=\"https://github.com/user-attachments/assets/a35c48d0-9838-4b00-8b22-055788cc431d\" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/41a536c1-664c-4708-aebf-d070773bc48c" />
+
 
 
 ## Learn More
